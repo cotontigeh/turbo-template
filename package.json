@@ -1,13 +1,18 @@
 {
+  "name": "turbo-template",
   "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "gen": "turbo gen",
     "lint": "turbo run lint",
+    "static": "turbo run static",
+    "sync": "turbo run sync",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "dev:nextjs": "yarn dev --filter=nextjs",
-    "build:nextjs": "npx turbo prune --scope=nextjs; yarn build:prune"
+    "build:nextjs": "npx turbo prune --scope=nextjs; yarn build:prune",
+    "open:ios": "turbo run open:ios",
+    "open:android": "turbo run open:android"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
@@ -15,11 +20,9 @@
     "tsconfig": "*",
     "turbo": "latest"
   },
-  "name": "lamborghini",
   "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
-    "packages/*",
-    "templates/*"
+    "packages/*"
   ]
 }

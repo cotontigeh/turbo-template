@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-capacitor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "static": "next build && next export",
+    "lint": "next lint",
+    "sync": "cap sync",
+    "open:ios": "cap open ios",
+    "open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.5.0",
+    "@capacitor/core": "^5.5.0",
+    "@capacitor/ios": "^5.5.0",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.0",
+    "tsconfig": "*",
+    "twconfig": "*"
+  }
+}
