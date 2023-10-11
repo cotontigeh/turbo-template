@@ -6,8 +6,8 @@
     "gen": "turbo gen",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "dev:next-template": "yarn dev --filter=next-template",
-    "build:next-template": "npx turbo prune --scope=pouet; yarn build:prune"
+    "dev:nextjs": "yarn dev --filter=nextjs",
+    "build:nextjs": "npx turbo prune --scope=nextjs; yarn build:prune"
   },
   "devDependencies": {
     "eslint": "^8.48.0",

@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["ui"],
+  transpilePackages: [], // load your internal packages here
 };
 
 module.exports = nextConfig;

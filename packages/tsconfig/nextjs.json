@@ -1,5 +1,12 @@
 {
+  "extends": "./base.json",
+  "display": "Nextjs",
   "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "target": "es5",
     "lib": [
       "dom",
