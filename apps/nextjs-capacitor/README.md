@@ -1,12 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-
-
 ## Getting Started
 
-for mac, 
+First step is to add ios and android inside folder `apps/nextjs-capacitor`
 
-First step to add ios and android inside folder `apps/nextjs-capacitor`
 ```bash
 npx cap add ios
 npx cap add android
@@ -17,16 +12,15 @@ Sync project
 npx cap sync
 ```
 
-# Ios
-
-## Needs
+# iOS
+We need : 
 - XCODE (via appstore)
 - cocoapods
 ```bash
 brew install cocoapods
 ```
 
-## Troubleshooting
+# iOS Troubleshooting
 ### Fix iOS xcode-select: error
 src : https://github.com/nodejs/node-gyp/issues/569
 ```bash
@@ -36,7 +30,7 @@ sudo xcode-select --switch /Library/Developer/CommandLineTools # Enable command 
 # Change the path if you installed Xcode somewhere else.
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
-
+--- 
 ### Pods-debug
 You can try to delete pods config inside `ios/App` with this tow commands : 
 ```bash
