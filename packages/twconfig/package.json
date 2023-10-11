@@ -1,0 +1,12 @@
+{
+  "name": "twconfig",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

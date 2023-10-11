@@ -3,8 +3,11 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "gen": "turbo gen",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "dev:next-template": "yarn dev --filter=next-template",
+    "build:next-template": "npx turbo prune --scope=pouet; yarn build:prune"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
@@ -16,6 +19,7 @@
   "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "templates/*"
   ]
 }
