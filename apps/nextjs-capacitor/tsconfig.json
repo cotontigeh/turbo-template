@@ -1,0 +1,21 @@
+// 💁 If you don't want to use the tsconfig.json file, you can use the tsconfig.nextjs.json file instead.
+{
+  "extends": "tsconfig/nextjs.json", // 🔗 See https://github.com/cotontigeh/turbo-template/blob/main/packages/tsconfig/nextjs.json
+  "compilerOptions": {
+    // "noImplicitAny": false, // Special case for konstaui
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "dist/types/**/*.ts",
+    "node_modules/konsta/react/konsta-react.d.ts"
+  ],
+  "exclude": ["node_modules", "android", "ios"]
+}

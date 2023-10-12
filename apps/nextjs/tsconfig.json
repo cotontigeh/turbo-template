@@ -1,6 +1,6 @@
-// If you don't want to use the tsconfig.json file, you can use the tsconfig.nextjs.json file instead.
+// 💁 If you don't want to use the tsconfig.json file, you can use the tsconfig.nextjs.json file instead.
 {
-  "extends": "tsconfig/nextjs.json",
+  "extends": "tsconfig/nextjs.json", // 🔗 See https://github.com/cotontigeh/turbo-template/blob/main/packages/tsconfig/nextjs.json
   "compilerOptions": {
     "plugins": [
       {
