@@ -6,13 +6,9 @@
     "dev": "turbo run dev",
     "gen": "turbo gen",
     "lint": "turbo run lint",
-    "static": "turbo run static",
-    "sync": "turbo run sync",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "dev:nextjs": "yarn dev --filter=nextjs",
-    "build:nextjs": "npx turbo prune --scope=nextjs; yarn build:prune",
-    "open:ios": "turbo run open:ios",
-    "open:android": "turbo run open:android"
+    "build:nextjs": "npx turbo prune --scope=nextjs; yarn build:prune"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
