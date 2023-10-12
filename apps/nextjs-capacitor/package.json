@@ -18,8 +18,7 @@
     "@capacitor/ios": "^5.5.0",
     "next": "13.5.4",
     "react": "^18",
-    "react-dom": "^18",
-    "ui": "*"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@capacitor/cli": "^5.5.0",

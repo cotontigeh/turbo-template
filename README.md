@@ -1,14 +1,14 @@
-# Turborepo workspaces 
+# Turborepo workspaces
 
 Aim the use of `turbo gen workspace`
 
-exemple : 
+exemple :
+
 ```bash
 npx turbo gen workspace --copy https://https://github.com/cotontigeh/turbo-template/tree/main/apps/next-template
 ```
 
 This will generate all structure of app from the `apps/next-template`
-
 
 ## Useful Links (from Turborepo)
 
