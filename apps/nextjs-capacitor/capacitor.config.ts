@@ -6,7 +6,7 @@ const config: CapacitorConfig = {
   webDir: "dist",
   server: {
     // Config for livereload
-    // 🔗 see https://capacitorjs.com/docs/guides/live-reload#using-with-framework-clis
+    // 🔗 See https://capacitorjs.com/docs/guides/live-reload#using-with-framework-clis
     url: "http://192.168.x.xx:3000", // replace with your local IP address
     cleartext: true,
   },

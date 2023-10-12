@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   distDir: "dist",
-  transpilePackages: [], // 💁 Load your internal packages here
+  transpilePackages: ["@ionic/react", "ionicons"], // 💁 Load your internal packages here
   images: {
     unoptimized: true,
   },

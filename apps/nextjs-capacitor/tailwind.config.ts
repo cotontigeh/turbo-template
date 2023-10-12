@@ -3,5 +3,5 @@ import baseConfig from "twconfig/nextjs.config"; // 🔗 See https://github.com/
 // 💁 If you don't want to use this tailwind config as a base, you can use tailwind.default.ts instead
 // import baseConfig from "./tailwind.default.ts";
 
-const config = { ...baseConfig };
+const config = { ...baseConfig, darkMode: "media" };
 export default config;
