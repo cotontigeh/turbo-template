@@ -17,9 +17,6 @@
       ]
     },
     "lint": {},
-    "open:ios": {},
-    "open:android": {},
-    "sync": {},
     "dev": {
       "cache": false,
       "persistent": true,
